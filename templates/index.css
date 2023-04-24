@@ -1,0 +1,93 @@
+* {
+    font-family: 'Nunito';
+}
+
+body {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 12vh; /* changed to 100vh for full screen height */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(9, 9, 121, 1), rgb(17, 0, 204));
+    margin: 0;
+}
+
+html {
+    background: url(background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    position: relative;
+}
+
+.navbar__container {
+    display: flex;
+    /* position: relative; */
+}
+
+.navbar__buttons {
+    margin-left: 80rem;
+    margin-top: 0.5rem;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.navbar__buttons a {
+    margin-right: 2vw;
+}
+
+.sign__button {
+    background: #642398;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: x-large;
+    width: 12vw; /* changed to vw unit */
+    max-width: 15vh; /* added max-width to prevent button from becoming too wide */
+    text-align: center;
+}
+
+.login__button {
+    padding: 5px;
+    border-radius: 15px;
+    font-size: x-large;
+}
+
+.navbar__logo {
+    color: #FFFFFF;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 3vh;
+}
+
+.navbar__container a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 2vw;
+    margin-top: 3vh;
+}
+
+.main_content {
+    margin: 10vh 8vw 0 8vw;
+    height: max-content;
+    background-color: rgba(223, 220, 220, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 5px rgba(87, 87, 87, 0.4);
+}
+
+.main_content p {
+    color: aliceblue;
+}
+
+.p__main_text {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.p__second_text {
+    text-align: center;
+    font-size: 2.5vw;
+}
