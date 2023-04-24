@@ -1,0 +1,56 @@
+body {
+    font-family: 'Nunito';
+    font-size: 22px;
+    background-color: #001E6A;
+    /* display:  flex; */
+    /* position: relative; */
+    /* justify-content: right; */
+    flex-direction: column;
+}
+
+.sign_txt{
+    font-family: 'Lexend';
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    margin-left: 35%;
+}
+
+.dentist_header{
+    color:white;
+    margin-left: 20%;
+}
+
+.container__signup {
+    float: right;
+    margin-right: 15%;
+}
+
+.signup_input{
+    width: 50vh;
+    height: 10vh;
+    border-radius: 15px;
+    margin-top: 10%;
+    font-family: 'Nunito';
+    background-color: #642398;
+    border-color: #642398;
+    color: white;
+    font-size: large;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.submit_button{
+    margin-top: 10%;
+    position: relative;
+    font-family: 'Nunito';
+    font-size: large;
+    background-color: #642398;
+    border-color: #642398;
+    color: white;
+    border-radius: 15px;
+    width: 50vh;
+    height: 10vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
