@@ -96,7 +96,7 @@ button:hover {
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 5rem;
+  grid-column-gap: 4rem;
   margin-top: 10rem;
 }
 
