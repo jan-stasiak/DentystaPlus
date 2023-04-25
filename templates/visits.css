@@ -24,7 +24,7 @@ li, a, button {
 header{
     background-color: #001E6A;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     padding: 10px 5%;
 }
@@ -70,6 +70,7 @@ button:hover{
     background-color: rgba(0,136,169,0.8);
 }
 
+
 main {
     display: flex;
 }
@@ -86,3 +87,71 @@ main {
     background-color: aqua;
 }
 
+=======
+.wizyty_header{
+    font-family: "Nunito";
+    font-size: 30px;
+    color:black;
+    padding-left: 5%;
+}
+
+.main_page{
+    list-style: none;
+    padding-top: 70px;
+    padding-left: 6%;
+    display: flex;
+    justify-content: space-between; 
+    /* align-items: center; */
+}
+
+.main_page li{
+    display: inline-block;
+    padding-top: 15px;
+    /* padding: 15px 60px; */
+}
+
+.visits{
+    padding: 0px;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text-fields {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EFE4E4;
+    padding: 10px;
+    border-radius: 30px;
+    /* box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .text-field {
+    flex: 1;
+    background-color: #EFE4E4;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-size: 30px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .text-field.first {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #EFE4E4;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .text-field.last {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #EFE4E4;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  }
+
+.add_text_background_color{
+    background-color: #EFE4E4;
+}
