@@ -1,25 +1,72 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="form.css">
-    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+  <head>
+    <link rel="stylesheet" href="form.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-    <div class="navbar__container">
-        <div class="navbar__logo">
-            <p>
-                Dentysta+
-            </p>
+  </head>
+  <body>
+    <header>
+      <h1 class="dentist_header">DENTYSTA+</h1>
+      <nav>
+        <ul class="nav__links">
+          <li>
+            <a href="#"><img src="visits_img.png" class="nav_buttons" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="calendar_img.png" class="nav_buttons" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="patients_img.png" class="nav_buttons" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="container__box">
+          <img src="person.png" alt="profile_picture" class="profile" />
         </div>
-        <div class="navbar__buttons">
-            <nav>
-                <a href="login.html" class="login__button">Login</a>
-                <a href="sign.html" class="sign__button">Sign up</a>
-            </nav>
+        <div class="container__box">
+          <form>
+            <div>
+              <label for="pesel">PESEL:</label>
+              <input type="text" id="pesel" name="pesel" required />
+              <label for="imie">Imię:</label>
+              <input type="text" id="imie" name="imie" required />
+              <label for="nazwisko">Nazwisko:</label>
+              <input type="text" id="nazwisko" name="nazwisko" required />
+              <label for="data_urodzenia">Data urodzenia:</label>
+              <input
+                type="date"
+                id="data_urodzenia"
+                name="data_urodzenia"
+                required
+              />
+              <label for="plec">Płeć:</label>
+              <select id="plec" name="plec" required>
+                <option value="kobieta">Kobieta</option>
+                <option value="mezczyzna">Mężczyzna</option>
+              </select>
+            </div>
+            <div>
+              <label for="drugie_imie">Drugie imię:</label>
+              <input type="text" id="drugie_imie" name="drugie_imie" />
+              <label for="nazwisko_pan">Nazwisko panieńskie:</label>
+                <input type="text" id="nazwisko_pan" name="nazwisko_pan" />
+              <label for="telefon">Telefon:</label>
+              <input type="text" id="telefon" name="telefon" required />
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required />
+              <label for="adres">Adres:</label>
+              <input type="text" id="adres" name="adres" required />
+            </div>
+          </form>
         </div>
-    </div>
-    <div class="main_content">
-    </div>
-
-</body>
+      </div>
+    </main>
+  </body>
 </html>

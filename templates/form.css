@@ -1,55 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
 * {
-    font-family: 'Nunito';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #eeedde;
+  font-family: "Nunito";
 }
 
-body {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    height: 12vh; /* changed to 100vh for full screen height */
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(9, 9, 121, 1), rgb(17, 0, 204));
-    margin: 0;
+.dentist_header {
+  font-family: "Nunito";
+  background-color: #001e6a;
+  color: white;
 }
 
-html {
-    background-color: whitesmoke;
-    background-size: cover;
+li,
+a,
+button {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
 }
 
-nav {
-    display: flex;
-    position: relative;
+header {
+  background-color: #001e6a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
 }
 
-.navbar__container {
-    display: flex;
-    /* position: relative; */
+.logo {
+  cursor: pointerl;
 }
 
-.navbar__buttons {
-    margin-left: 80rem;
-    margin-top: 0.5rem;
-    justify-content: flex-end;
-    margin-right: 5vw;
+.nav__links {
+  list-style: none;
+  background-color: #001e6a;
 }
 
-.navbar__buttons a {
-    margin-right: 2vw;
+.nav__links li {
+  display: inline-block;
+  padding: 0px 60px;
+  background-color: #001e6a;
 }
 
-
-.navbar__logo {
-    color: #FFFFFF;
-    margin-right: 5vw;
-    margin-left: 5vw;
-    font-size: 3vh;
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+  background-color: #001e6a;
 }
 
-.navbar__container a {
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-right: 2vw;
-    margin-top: 3vh;
+.nav__links li a:hover {
+  color: #0088a9;
 }
 
+.nav_buttons {
+  background-color: #001e6a;
+  width: 80px;
+  height: auto;
+}
+
+.cta {
+  /* dosłownie tylko po to by dać backgound color */
+  background-color: #001e6a;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__box {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+}
+
+.profile {
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  margin-top: 9rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5rem;
+  margin-top: 10rem;
+}
+
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 5px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1.5vh;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 25em;
+}
+
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
