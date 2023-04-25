@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEDDE;
+    font-family: "Nunito";
+}
+
+.dentist_header{
+    font-family: "Nunito";
+    background-color: #001E6A;
+    color:white;
+}
+
+li, a, button {
+    font-family: "Nunito";
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: #001E6A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.logo{
+    cursor: pointerl;
+}
+
+.nav__links{
+    list-style: none;
+    background-color: #001E6A;
+}
+
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 60px;
+    background-color: #001E6A;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    background-color: #001E6A;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.nav_buttons{
+    background-color: #001E6A;
+    width: 80px;
+    height: auto;
+}
+
+.cta{
+    /* dosłownie tylko po to by dać backgound color */
+    background-color: #001E6A;
+}
+
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user_information {
+    display: flex;
+    justify-content: space-evenly;
+    background: #BAD8EE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.content_container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.left_container {
+    position: fixed;
+    left: 0;
+    margin-left: 30vh;
+    flex-direction: column;
+}
+  
+.right_container {
+    position: fixed;
+    right: 0;
+    margin-right: 30vh;
+    margin-top: 5vh;
+}
+
+
+.teeth {
+    height: 20vh;
+    width: 50vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.jaw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.jaw_tooth{
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 5vh;
+    width: 1.2vw;
+}
+
+.jaw_tooth:hover {
+    cursor: pointer;
+}
+
+.gum{
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gum:hover {
+    cursor: pointer;
+}
+
+.gum p{
+    background: #D9D9D9;
+    font-weight: 700;
+}
+
+.gum_bottom{
+    padding: 2vh;
+    margin-top: 1rem;
+}
+
+.gum_top {
+    padding: 2vh;
+    margin-bottom: 1rem;
+}
+
+.services{
+    background-color: darkgreen;
+    height: 25vh;
+    width: 50vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 14vh;
+    background: #F0DBDB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.services__element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #BAD8EE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin-top: 2vh;    
+    margin-left: 1vw;    
+    margin-right: 1vw;    
+}
+
+.services__element p {
+    background: #BAD8EE;
+    font-weight: 700;
+}
+
+
+.menu {
+    height: 5vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_diagnosis{
+    width: 50%;
+    height: 100%;
+    background: #642398;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.menu_diagnosis p{
+    background: #642398;
+}
+
+
+
+.menu_services{
+    width: 50%;
+    height: 100%;
+    background: #264ECA;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.menu_services p{
+    background: #264ECA;
+}
+
+.menu__element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-weight: 500;
+}
+
+.menu__element:hover {
+    cursor: pointer;
+}
+
+.list {
+    background-color: rgb(105, 0, 56);
+    height: 20vh;
+    width: 50vh;
+}
+
+
+
+
+
