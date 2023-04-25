@@ -70,6 +70,24 @@ button:hover{
     background-color: rgba(0,136,169,0.8);
 }
 
+
+main {
+    display: flex;
+}
+
+.user_information {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+.content_container{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+
+=======
 .wizyty_header{
     font-family: "Nunito";
     font-size: 30px;
